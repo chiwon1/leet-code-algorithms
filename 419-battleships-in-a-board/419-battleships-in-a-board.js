@@ -11,8 +11,6 @@ var countBattleships = function(board) {
         if (board[x][y] === 'X') {
             board[x][y] = '.';
 
-            dfs(x - 1, y);
-            dfs(x, y - 1);
             dfs(x + 1, y);
             dfs(x, y + 1);
 
