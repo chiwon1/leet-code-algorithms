@@ -21,7 +21,6 @@ var maxProfitAssignment = function(difficulty, profit, worker) {
         const targetWorker = worker[i];
         
         for (let j = 0; j < sortedDifficultyAndProfitList.length; j++) {
-            
             if (targetWorker >= sortedDifficultyAndProfitList[j].difficulty) {
                 result += sortedDifficultyAndProfitList[j].profit;
                 
