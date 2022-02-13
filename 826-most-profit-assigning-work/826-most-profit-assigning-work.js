@@ -28,7 +28,6 @@ var maxProfitAssignment = function(difficulty, profit, worker) {
             }
         }
     }
-    
-    
+
     return result;
 };
