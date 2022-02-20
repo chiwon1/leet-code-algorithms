@@ -6,7 +6,7 @@ var countBits = function(n) {
     const result = [];
     
     for (let i = 0; i < n + 1; i++) {
-        const binaryValue = i.toString(2).toString();
+        const binaryValue = i.toString(2);
         let count = 0;
         
         for (let j = 0; j < binaryValue.length; j++) {
