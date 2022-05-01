@@ -11,11 +11,12 @@
  * @return {number}
  */
 const longestZigZag = function(root) {
-    let result = 0;
     const LEFT = 'left';
     const RIGHT = 'right';
 
-    const traverseAndGetZigZag = function (node, previous, length = 0) {
+    let result = 0;
+
+    const traverseAndGetZigZag = function(node, previous, length = 0) {
         if (!node) {
             return;
         }
