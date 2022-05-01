@@ -16,7 +16,7 @@ const leafSimilar = function(root1, root2) {
     const root2Leaves = [];
     let reuslt = true;
     
-    const getLeaves = (node, resultArr) => {
+    const getLeaves = function(node, resultArr) {
         if (!node.left && !node.right) {
             resultArr.push(node.val);
 
